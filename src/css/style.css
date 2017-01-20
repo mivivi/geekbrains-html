@@ -1,0 +1,9 @@
+body {
+    background-color: #f8f8f8;
+}
+
+.menu a {
+    color: blue;
+    font: 18px Arial;
+    text-decoration: none;
+}
