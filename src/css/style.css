@@ -57,9 +57,3 @@ input[type="tel"] {
     border: 5px solid #3F0740;
     width: 300px;
 }
-
-header,
-nav {
-    display: flex;
-    justify-content: center;
-}
