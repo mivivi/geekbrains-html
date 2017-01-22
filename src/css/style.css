@@ -7,3 +7,59 @@ body {
     font: 18px Arial;
     text-decoration: none;
 }
+
+.product-info h2 {
+    color: #000000;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea;
+}
+
+.overview-text {
+    color: #707070;
+    font: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+.details-text {
+    color: #484343;
+    font: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.no-bullets-list li {
+    font: 16px Arial;
+    color: #2E3551;
+    list-style-image: url('../img/bmo.png');
+}
+
+.contacts fieldset {
+    width: 20%;
+}
+
+.contacts input[type="submit"] {
+    width: 203px;
+    height: 20px;
+}
+
+.contacts input[type="text"],
+input[type="tel"] {
+    width: 200px;
+    height: 20px;
+    font: 14px Helvetica;
+    color: #3F0740;
+}
+
+.product-img {
+    border: 5px solid #3F0740;
+    width: 300px;
+}
+
+header,
+nav {
+    display: flex;
+    justify-content: center;
+}
