@@ -8,6 +8,10 @@ body {
     text-decoration: none;
 }
 
+.menu a:hover {
+    color: #FFF000;
+}
+
 .product-info h2 {
     color: #000000;
     font-size: 18px;
@@ -51,9 +55,45 @@ input[type="tel"] {
     height: 20px;
     font: 14px Helvetica;
     color: #3F0740;
+    text-transform: capitalize;
 }
 
 .product-img {
     border: 5px solid #3F0740;
     width: 300px;
+}
+
+.product-img:hover {
+    border: none;
+    margin: 5px;
+}
+
+.footer p {
+    text-align: center;
+    color: #7B7575;
+}
+
+.contacts input[type="text"]:focus,
+input[type="tel"]:focus {
+    color: #063839;
+    background-color: #A1E8FA;
+}
+
+.table-poster-price table {
+    border-collapse: collapse;
+    width: 150px;
+    height: 100px;
+
+}
+
+.table-poster-price td {
+    border: 1px solid black;
+    height: 25px;
+    text-align: center;
+}
+
+.text-table-style {
+    font-weight: bold;
+    font-size: 18px;
+    background-color: #E9E8E8;
 }
