@@ -1,3 +1,9 @@
+html,
+body {
+    height: 100%;
+    margin: auto 0;
+}
+
 body {
     background-color: #f8f8f8;
 }
@@ -110,27 +116,6 @@ input[type="tel"]:focus {
     text-align: right;
 }
 
-.footer {
-    height: 50px;
-    background-color: #CECDCD;
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    bottom: 0;
-}
-
-.footer p {
-    text-align: right;
-    color: #7B7575;
-    margin-top: 20px;
-    margin-right: 20px;
-}
-
-.footer hr {
-    margin-top: 0px;
-}
-
 .buy-button input:hover {
     background-color: #B47DB5;
     border: 1px solid #60056B;
@@ -176,8 +161,8 @@ input[type="tel"]:focus {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
     max-width: 100%;
+    /*justify-content: center;*/
 }
 
 .flex-item {
@@ -219,4 +204,30 @@ input[type="tel"]:focus {
 
 #active-poster:active {
     color: #FFAE00;
+}
+
+.clr {
+    height: 70px;
+}
+
+.footer {
+    height: 70px;
+    margin: auto 0;
+    margin-top: -70px;
+    background-color: #E4E4E4;
+}
+
+.footer p {
+    text-align: right;
+    color: #7B7575;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.footer hr {
+    margin-top: 0px;
+}
+
+.main-catalog-con {
+    height: 100%;
 }
